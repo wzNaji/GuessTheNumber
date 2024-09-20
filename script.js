@@ -91,7 +91,7 @@ function stopTimer() {
 // Endgame
 function endGame() {
     lblMessage.textContent = "Game over!";
-    document.body.style.backgroundColor = "red";
+    document.body.style.backgroundColor = "darkred";
     lblNumber.textContent = "😭";
     document.querySelector(".number").textContent = lblNumber.textContent;
     document.querySelector(".btn.check").disabled = true;
